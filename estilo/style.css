@@ -13,13 +13,12 @@ header {
 }
 
 header > nav {
-    padding: 5vh;
+
 }
 
 header > nav > a {
-    padding: 10px;
     text-decoration: none;
-    color: white;
+    color: white;w
 }
 
 header > nav > a:hover {
@@ -32,4 +31,10 @@ header > nav > a:hover {
 .logo-header {
     height: 30px;
     text-decoration: none;
+}
+
+.logo-teste {
+    padding-top: 15px;
+    width: 200px;
+    height: 70px;
 }

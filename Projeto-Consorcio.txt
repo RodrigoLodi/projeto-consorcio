@@ -1,0 +1,24 @@
+Menu: FIXO {
+Como funciona;
+Onde estamos;
+Feedbacks (Ou algum outro nome);
+Fale com a gente;
+Botões de redes sociais (whatsapp, instagram e facebook);
+}
+
+Main {
+Cadastre aqui (Linkado com o RD);
+Vantagens do Consórcio;
+Fotos com clientes contemplados;
+Alguns planos;
+}
+
+Footer {
+Redes sociais;
+Telefone para enviar uma mensagem;
+Email;
+Onde estamos;
+Quem somos;
+}
+
+Botão flutuante de FALE CONOSCO.

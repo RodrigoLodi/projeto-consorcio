@@ -10,10 +10,39 @@
 
     .main-desktop {
         display: none;
+        padding: 0px;
     }
 
     .logo-redes-sociais {
         width: 30px;
+    }
+
+    .main-mobile {
+        width: 100%;
+    }
+
+    .main-mobile > ul {
+        padding: 0px;
+    }
+
+    #burguer {
+        cursor: pointer;
+    }
+
+    .lista {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-image: linear-gradient(to left, red, orange);
+        list-style: none;
+    }
+
+    .lista:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
     }
 }
 
@@ -34,6 +63,7 @@
     .link-redes {
 
     }
+    
     .main-mobile {
         display: none;
     }

@@ -15,14 +15,6 @@
                 <a href="#" class="link-logo-menu"><img src="estilo/imagens/header/logo.png" alt="fon" class="logo-menu"></a>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-7 col-sm-4 col-4">
-                <div class="main-mobile" id="itens">
-                    <ul>
-                        <a href="#"><li>Como funciona</li></a>
-                        <a href="#"><li>Onde estamos</li></a>
-                        <a href="#"><li>Feedbacks</li></a>
-                        <a href="#"><li>Fale conosco</li></a>
-                    </ul>
-                </div>
                 <div class="main-desktop">
                     <a href="#">Como funciona</a>
                     <a href="#">Onde estamos</a>
@@ -35,10 +27,31 @@
                     <a href="#" class="link-logo-redes-sociais"><img src="estilo/imagens/header/facebook.png" alt="facebook" class="logo-redes-sociais"></a>
                     <a href="#" class="link-logo-redes-sociais"><img src="estilo/imagens/header/instagram.png" alt="instagram" class="logo-redes-sociais"></a>
                     <a href="#" class="link-logo-redes-sociais"><img src="estilo/imagens/header/whatsapp.png" alt="whatsapp" class="logo-redes-sociais"></a>
-                    <a href="#"><img src="estilo/imagens/header/menu.png" alt="menu" id="burguer-rede" class="burguer"></a>
+                    <a href="#" onclick="clickMenu()" id="burguer"><img src="estilo/imagens/header/menu.png" alt="menu" id="burguer-rede" class="burguer"></a>
                 </div>
             </div>
         </div>
     </menu>
+    <main>
+        <div class="main-mobile" id="itens">
+            <ul>
+                <a href="#" class="lista"><li>Como funciona</li></a>
+                <a href="#" class="lista"><li>Onde estamos</li></a>
+                <a href="#" class="lista"><li>Feedbacks</li></a>
+                <a href="#" class="lista"><li>Fale conosco</li></a>
+            </ul>
+        </div>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
